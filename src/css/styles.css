@@ -17,6 +17,11 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body {
+  padding: 36px;
+  text-align: center;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -45,4 +50,57 @@ h6 {
 
 img {
   display: block;
+}
+
+.form {
+}
+
+.form-input {
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  border: 1px solid #808080;
+  outline: none;
+  padding: 8px 16px;
+  margin-right: 8px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.form-input::placeholder {
+  color: #808080;
+}
+
+.form-input:hover {
+  border: 1px solid #000000;
+}
+
+.form-input:active {
+  border: 1px solid #4e75ff;
+}
+
+.form-btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 90px;
+  height: 40px;
+  background-color: #4e75ff;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+.form-btn:hover {
+  background-color: #6c8cff;
 }
